@@ -1,0 +1,143 @@
+<!--  
+ _____   ___ __  __  _____ _____   ___  _  __              ___   ___   __    __ 
+/__   \ /___\\ \/ /  \_   \\_   \ / __\( )/ _\            / __\ /___\ /__\  /__\
+  / /\///  // \  /    / /\/ / /\// /   |/ \ \            / /   //  /// \// /_\  
+ / /  / \_//  /  \ /\/ /_/\/ /_ / /___    _\ \          / /___/ \_/// _  \//__  
+ \/   \___/  /_/\_\\____/\____/ \____/    \__/          \____/\___/ \/ \_/\__/  
+__________________________________________________________________________________
+-->
+<xml version="1.0" encoding="UTF-8">
+<!-- This is Game Server configuration -->
+	<Server>
+		<DebugMode>true</DebugMode> <!-- True or False -->
+		<ClientVersion>9</ClientVersion> <!-- Used for checks -->
+		<ServerID>1</ServerID> <!-- Should match with the one in database to load informations -->
+		<ServerPort>10375</ServerPort> <!-- Server Listen Port -->
+		<GameplayPort>10376</GameplayPort> <!-- TCP Server 1 Listen Port -->
+		<MaxSessions>1000</MaxSessions> <!-- Adviced to be under 1000 if you don't have +300 online -->
+		<PingRequestTick>5000</PingRequestTick> <!-- Ping request tick in milliseconds -->
+		<SystemName>SYSTEM</SystemName> <!-- Server chat (like SYSTEM >> You are muted -> Example >> You are muted) -->
+		<MaxSpectators>5</MaxSpectators> <!-- Max spectators for each room -->
+		<MaxPing>600</MaxPing> <!-- Ping limit in milliseconds -->
+		<Channels Infantry="true" Vehicular="true" Zombie="true"/> <!-- Infantry, Vehicular, Zombie - True = enabled / False = disabled -->
+	</Server>
+	
+	<Player>
+		<MaxInventorySlots>100</MaxInventorySlots> <!-- Max Items that a user can have -->
+		<MaxCostumesSlots>100</MaxCostumesSlots> <!-- Max Costumes that a user can have -->
+		<LevelupDinar>1000</LevelupDinar> <!-- Dinar for each levelup - Calc = Dinar * Level -->
+		<LevelupCash>100</LevelupCash> <!-- Cash given at each levelup - Calch = cash + 2500 -->
+		<CouponEvent>false</CouponEvent> <!-- True or False - Players are available to open / buy items from coupon event change booth -->
+		<CarePackage>false</CarePackage> <!-- True or False - Players are available to open / buy items from carepackage -->
+	</Player>
+
+	<Clan>
+		<MaxSlots>100</MaxSlots> <!-- Max users that can be in a clan -->
+		<DefaultSlot>20</DefaultSlot> <!-- Slots increases of 20 players -->
+		<CreationCost>10000</CreationCost> <!-- Cost for create a clan -->
+		<DefaultAnnouncment>This is a brand new clan!</DefaultAnnouncment> <!-- Default Announcment Message on create clan -->
+		<DefaultDescription>This is a brand new clan!</DefaultDescription> <!-- Default Description Message on create clan -->
+	</Clan>	
+	
+	<AntiCheat>
+		<AntiCheatName>MontanaGuard</AntiCheatName>
+		<AntiEnabled>false</AntiEnabled> <!-- True or False -->
+		<AntiRoutineTick>5</AntiRoutineTick> <!-- Seconds gave after login for receive (use atleast 2!!) -->
+		<ServerPort>5040</ServerPort> <!-- Seconds gave after login for receive (use atleast 2!!) -->
+	</AntiCheat>
+	
+	<RetailSystem> <!-- 8th slot weapons retail for normal players -->
+		<!-- Use ^ for no weapon -->
+		<Enabled>false</Enabled>  <!-- True or False -->
+		<Engineer>DF32</Engineer>
+		<Medic>DF35</Medic>
+		<Sniper>DG08</Sniper>
+		<Assault>DC04</Assault>
+		<Heavy>DH04</Heavy>
+	</RetailSystem>
+	
+	<WebServer>
+		<Enabled>true</Enabled> <!-- True or False -->
+		<Port>18382</Port> <!-- Web Server Port -->
+		<AllowRemoteRequest>false</AllowRemoteRequest> <!-- True or False - Allow remote requests (servers that are not in database) -->
+	</WebServer>
+	
+	<LoginEvent>
+		<Enabled>false</Enabled>
+		<Items>DC64,DB10,DF37,DS03,DS10</Items> <!-- Separated by comma -->
+		<DaysRange>1-3</DaysRange> <!-- Range of max obtainable days separated by score -->
+	</LoginEvent>
+	
+	<ClanWarServer>
+		<IsClanWarServer>false</IsClanWarServer> <!-- Is a only clanwar server true/false -->
+		<EXPBonus>0.3</EXPBonus> <!-- EXP Bonus double -->
+		<DinarBonus>0.3</DinarBonus> <!-- Dinar Bonus double -->
+	</ClanWarServer>
+	
+	<RandomBoxEvent> <!-- Random Box Event given at "hour" everyday -->
+		<Enabled>true</Enabled> <!-- True or False -->
+		<BoxCode>CZ99</BoxCode> <!-- So you can also send xmas box / whatever -->
+		<Hour>16</Hour> <!-- At which hour the box should be given -->
+		<Items>DS10,DS03,DF35,DC33,DG13,DG27,DF15,DC19</Items> <!-- Separated by comma -->
+		<DaysRange>1-7</DaysRange> <!-- Range of max obtainable days separated by score -->
+	</RandomBoxEvent>
+	
+	<ChristmasBoxEvent> <!-- Random Box Event given at "hour" everyday -->
+		<Enabled>false</Enabled> <!-- True or False -->
+		<BoxCode>CR05</BoxCode> <!-- So you can also send xmas box / whatever -->
+		<Hour>16</Hour> <!-- At which hour the box should be given -->
+		<Items>DC76,DF71,DT73,DG17,DC19,DC37,DG31,BV01</Items> <!-- Separated by comma -->
+		<DaysRange>1-7</DaysRange> <!-- Range of max obtainable days separated by score -->
+	</ChristmasBoxEvent>
+	
+	<ChatEvent>
+		<Enabled>true</Enabled>
+		<EventID>7</EventID> <!-- Database event id -->
+		<Daily>true</Daily> <!-- Database event id -->
+		<Message>I Love WrMontana</Message>
+		<PopupMessage>Brrr! You got %item% for %days% day(s).</PopupMessage>
+		<Items>DC87,DC88,DC89,DC90</Items> <!-- Separated by comma -->
+		<DaysRange>1-3</DaysRange> <!-- Range of max obtainable days separated by score -->
+	</ChatEvent>
+	
+	<SupplyBoxEvent> <!-- Must we give a supplybox randomly on endgame -->
+		<Enabled>false</Enabled>
+		<GoldKeyItems></GoldKeyItems>
+		<PlatinumKeyItems></PlatinumKeyItems>
+	</SupplyBoxEvent>
+	
+	<Christmas>
+		<Enabled>false</Enabled>
+		<ExpRate>2.5</ExpRate> <!-- Additional exp rate -->
+		<DinarRate>1.0</DinarRate> <!-- Additional dinar rate -->
+	</Christmas>
+	
+	<Experience>
+		<EXPRate>2.6</EXPRate> <!-- double -->
+		<DinarRate>0.5</DinarRate> <!-- double -->
+		<OnKillPoints>5</OnKillPoints> <!-- Points gave for each kill -->
+		<OnHSKillPoints>3</OnHSKillPoints> <!-- Points (+) gaved for each kill -->
+		<OnDeathPoints>1</OnDeathPoints> <!-- Points gave for each death -->
+		<OnTakeFlag>3</OnTakeFlag> <!-- Points gave for each flag -->
+		<OnVehicleKillAdditional>3</OnVehicleKillAdditional> <!-- (+) Points when someone kill you from vehicle -->
+		<OnVehicleKill>10</OnVehicleKill> <!-- (+) Points when you kill user in vehicle (each) -->
+		<OnFriendHeal>3</OnFriendHeal> <!-- Points given for each heal to a user with (< 300) HP -->
+		<OnBombPlant>10</OnBombPlant> <!-- Points gave to the team (hidden from score) on bomb plant -->
+		<OnBombDefuse>20</OnBombDefuse> <!-- Points gave to the team (hidden from score) on bomb defuse -->
+		<OnNormalPlaceUse>5</OnNormalPlaceUse> <!-- PX Medic Box, Flash, ... -->
+		<OnLandPlaceUse>3</OnLandPlaceUse> <!-- PX Ammo Box, M14, ... -->
+		<OnMissionHack>30</OnMissionHack> <!-- Points gave on Mission Hack (SiegeWar 2) -->
+		<MaxFlags>30</MaxFlags> <!-- Numbers of flags that give points, like if i took 34 flags, i get only points from 30 -->
+		<MaxExperience>20000</MaxExperience> <!-- Max experience that can be earned in a play -->
+		<MaxDinars>8500</MaxDinars> <!-- Max dinars that can be earned in a play -->
+	</Experience>
+	
+	<Database>
+		<host>127.0.0.1</host> <!-- Host ip -->
+		<port>3306</port> <!-- Database port -->
+		<user>root</user> <!-- User -->
+		<password></password> <!-- Password -->
+		<database>warrock</database> <!-- Database -->
+		<poolsize>100</poolsize> <!-- Pool size -->
+	</Database>
+</xml>

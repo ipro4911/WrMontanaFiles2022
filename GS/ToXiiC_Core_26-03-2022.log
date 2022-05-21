@@ -1,0 +1,80 @@
+/* Start up: 26/03/2022 17:14:20 */
+
+[26/03/2022 17:14:24] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 17:14:24] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 17:14:24] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 17:14:24] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 17:14:24] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 17:14:24] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 17:14:24] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)
+/* Start up: 26/03/2022 19:55:56 */
+
+[26/03/2022 19:56:11] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 19:56:11] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 19:56:11] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 19:56:11] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 19:56:11] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 19:56:11] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 19:56:11] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:22:55] [LazyAsyncResult.Complete] » Received new TCP connection from 25.81.122.185:65474
+/* Start up: 26/03/2022 20:23:38 */
+
+[26/03/2022 20:23:48] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:23:48] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:23:48] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:23:48] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:23:48] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:23:48] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:23:48] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:12] [LazyAsyncResult.Complete] » Received new TCP connection from 25.96.126.139:52301
+[26/03/2022 20:24:18] [User.ReceiveData] » Error parsing user information for user test
+/* Start up: 26/03/2022 20:24:53 */
+
+[26/03/2022 20:24:57] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:57] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:57] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:57] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:57] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:57] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:57] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:24:59] [LazyAsyncResult.Complete] » Received new TCP connection from 25.96.126.139:52357
+[26/03/2022 20:25:06] [LazyAsyncResult.Complete] » Received new TCP connection from 25.81.122.185:65482
+/* Start up: 26/03/2022 20:26:43 */
+
+[26/03/2022 20:26:50] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:26:50] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:26:50] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:26:50] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:26:50] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:26:50] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:26:50] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:26:56] [LazyAsyncResult.Complete] » Received new TCP connection from 25.96.126.139:52524
+[26/03/2022 20:27:06] [LazyAsyncResult.Complete] » Received new TCP connection from 25.81.122.185:52715
+/* Start up: 26/03/2022 20:28:28 */
+
+[26/03/2022 20:28:31] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:28:31] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:28:31] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:28:31] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:28:31] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:28:31] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:28:31] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 20:28:36] [User.ReceiveData] » test tried to login with wrong ticket id!
+/* Start up: 26/03/2022 22:13:14 */
+
+[26/03/2022 22:13:19] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:13:19] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:13:19] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:13:19] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:13:19] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:13:19] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:13:19] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)
+/* Start up: 26/03/2022 22:17:14 */
+
+[26/03/2022 22:17:18] [Program.initializeStartup] » Map ID [46] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:17:18] [Program.initializeStartup] » Map ID [22] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:17:18] [Program.initializeStartup] » Map ID [80] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:17:18] [Program.initializeStartup] » Map ID [89] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:17:18] [Program.initializeStartup] » Map ID [27] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:17:18] [Program.initializeStartup] » Map ID [44] its already in the dictionary, maybe some duplicate (?)
+[26/03/2022 22:17:18] [Program.initializeStartup] » Map ID [71] its already in the dictionary, maybe some duplicate (?)

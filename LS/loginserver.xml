@@ -1,0 +1,33 @@
+<!--  
+ _____   ___ __  __  _____ _____   ___  _  __              ___   ___   __    __ 
+/__   \ /___\\ \/ /  \_   \\_   \ / __\( )/ _\            / __\ /___\ /__\  /__\
+  / /\///  // \  /    / /\/ / /\// /   |/ \ \            / /   //  /// \// /_\  
+ / /  / \_//  /  \ /\/ /_/\/ /_ / /___    _\ \          / /___/ \_/// _  \//__  
+ \/   \___/  /_/\_\\____/\____/ \____/    \__/          \____/\___/ \/ \_/\__/  
+__________________________________________________________________________________
+-->
+<xml version="1.0" encoding="UTF-8">
+<!-- This is Login Server configuration -->	
+	<UpdaterInformation>
+		<Format>0</Format> <!-- Format -->
+		<Launcher>0</Launcher> <!-- Launcher -->
+		<Updater>4</Updater> <!-- Updater -->
+		<Client>15</Client> <!-- Client -->
+		<Sub>0</Sub> <!-- Sun -->
+		<Option>0</Option> <!-- Option -->
+		<UpdaterURL>http://patch.nexuswar.eu/</UpdaterURL> <!-- URL to the folder to the patch, ex: http://site.com/patch/ (don't forget last slash!) -->
+	</UpdaterInformation>
+	
+	<Settings>
+		<LockedCountries></LockedCountries> <!-- Locked countries (use country code) separated by comma -->
+	</Settings>
+	
+	<Database>
+		<host>127.0.0.1</host> <!-- Host ip -->
+		<port>3306</port> <!-- Database port -->
+		<user>root</user> <!-- User -->
+		<password>123456</password> <!-- Password -->
+		<database>montana2</database> <!-- Database -->
+		<poolsize>100</poolsize> <!-- Pool size -->
+	</Database>
+</xml>

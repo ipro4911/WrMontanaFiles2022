@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Can\Desktop\WrMontana Public\LS\LoginServer.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3BC9FC8-DEEB-4D3F-AD25-873F3F82B664}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>LoginServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\LS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>WarRock.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WarrockSw\Emu\ServerTT\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Country.cs" />
+    <Compile Include="DatabaseInfo.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LookupService.cs" />
+    <Compile Include="Region.cs" />
+    <Compile Include="RegionName.cs" />
+    <Compile Include="LoginServer\DB.cs" />
+    <Compile Include="LoginServer\Statment.cs" />
+    <Compile Include="LoginServer\ServersInformations.cs" />
+    <Compile Include="LoginServer\Server.cs" />
+    <Compile Include="LoginServer\Program.cs" />
+    <Compile Include="LoginServer\Generic.cs" />
+    <Compile Include="LoginServer\IO.cs" />
+    <Compile Include="LoginServer\Log.cs" />
+    <Compile Include="LoginServer\User.cs" />
+    <Compile Include="LoginServer\Configs\Console.cs" />
+    <Compile Include="LoginServer\Configs\Main.cs" />
+    <Compile Include="LoginServer\Configs\Patch.cs" />
+    <Compile Include="LoginServer\Configs\Server.cs" />
+    <Compile Include="LoginServer\Managers\CountryManager.cs" />
+    <Compile Include="LoginServer\Managers\Packet_Manager.cs" />
+    <Compile Include="LoginServer\Networking\NetworkSocket.cs" />
+    <Compile Include="LoginServer\Packets\Handler.cs" />
+    <Compile Include="LoginServer\Packets\CP_ServerRefresh.cs" />
+    <Compile Include="LoginServer\Packets\Packet.cs" />
+    <Compile Include="LoginServer\Packets\SP_ServerRefresh.cs" />
+    <Compile Include="LoginServer\Packets\SP_LoginPacket.cs" />
+    <Compile Include="LoginServer\Packets\CP_LoginHandler.cs" />
+    <Compile Include="LoginServer\Packets\CP_NewUserHandler.cs" />
+    <Compile Include="LoginServer\Packets\Cryption.cs" />
+    <Compile Include="LoginServer\Packets\SP_PatchInformationPacket.cs" />
+    <Compile Include="LoginServer\Packets\CP_PatchInformationHandler.cs" />
+    <Compile Include="LoginServer\Packets\SP_PatchInformationUpdatePacket.cs" />
+    <Compile Include="LoginServer\Packets\CP_PatchInformationUpdateHandler.cs" />
+    <Compile Include="LoginServer\Packets\SP_ReceiveConnection.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WarRock.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
